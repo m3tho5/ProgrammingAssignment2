@@ -1,7 +1,6 @@
 ## Assignment: Lexical Scoping
 ## Coursera class to make functions that Cache the Inverse of a Matrix 
 
-
 ## makeCacheMatrix: This function creates a special "matrix" object that 
 ## can cache its inverse.  Output list of functions:
 ## set matrix, get matrix, set inverse, get inverse
@@ -25,7 +24,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setinv = setinv,
        getinv = getinv)
 }
-
 
 ## cacheSolve computes the inverse of the special "matrix" returned by 
 ## abovecacheSolve: This function computes the inverse of the special 
